@@ -23,7 +23,8 @@ the Script will start after every boot.
 ## todo
 - Right now if you start the Laptop already plugged in, it immediately plays the first audio @ startup.
 
-## this was only tested on 2 Laptops, your /sys/power_supply/* may be different.
+## notes
+this was only tested on 2 Laptops, your /sys/power_supply/* may be different.
 ## License
 - GPL-3
 
