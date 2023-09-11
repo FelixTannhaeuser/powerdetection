@@ -6,8 +6,7 @@ Play an Audio File every time the power cable of your Laptop is connected and di
 1. Make sure to have the mpv Player installed.
 https://mpv.io/
 
-2. add "@reboot sleep 60 && /home/$USER/pow_audio.sh"
-60-Second delay to not interfere with the startup.
+2. add "@reboot sleep 60 && /home/$USER/pow_audio.sh" to the end of the crontab list.
 
 3. Download and put the pow_audio.sh in your home directory
 
